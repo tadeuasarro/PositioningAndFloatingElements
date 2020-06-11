@@ -8,13 +8,14 @@
 .navbar {
   position: fixed;
   display: flex;
-  flex-flow: row wrap;
   width: 100%;
   height: 50px;
   justify-content: space-between;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   border-bottom: #e2e2e2 solid 1px;
+  top: 0;
+  background-color: white;
 }
 
 .navbar-first-element button {
@@ -34,7 +35,8 @@
   border-radius: 3px;
 }
 
-.navbar-third-element a,.navbar-third-element button {
+.navbar-third-element a,
+.navbar-third-element button {
   margin-right:20px;
   font-size:14px;
   font-weight:600;
@@ -53,26 +55,31 @@
 
 /* BOTTOM-NAVBAR STYLING */
 .nav-bottom {
+  font-family: Arial, Helvetica, sans-serif;
   position: fixed;
   bottom: 0;
   display: block;
-  flex-flow: row wrap;
   width: 100%;
   height: 50px;
-  border:1px solid black; 
+  border-top: 1px solid black;
+  background-color: white;
 }
 
-.nav-bottom p { 
-  margin-left:35%;
-  margin-top:15px;
+.nav-bottom p {
+  margin-left: 35%;
+  margin-top: 15px;
 }
 
 .right-elem {
-  margin-top:15px;
-  float: right; 
+  margin-top: 15px;
+  margin-right: 100px;
+  float: right;
 }
 .right-elem a {
   margin-right:10px;
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
 }
 
 .icon-arrow i {
@@ -82,3 +89,30 @@
 .clas {
   display: inline-block;
 }
+
+/* MAIN SECTION STYLING */
+.out-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 70%;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.container h1 {
+  margin: 30px 150px;
+}
+
+.container p {
+  margin: 10px 150px;
+  line-height: 30px;
+  text-indent: 50px;
+}
+
