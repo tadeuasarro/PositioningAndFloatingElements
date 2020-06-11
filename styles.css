@@ -55,18 +55,30 @@
 .nav-bottom {
   position: fixed;
   bottom: 0;
-  display: flex;
+  display: block;
   flex-flow: row wrap;
   width: 100%;
   height: 50px;
-  border:1px solid black;
+  border:1px solid black; 
 }
 
-.nav-bottom .container-footer{
-  text-align:center;
-  border:1px solid blue;
+.nav-bottom p { 
+  margin-left:35%;
+  margin-top:15px;
 }
 
-.icon-arrow {
-  border: 1px solid red;
+.right-elem {
+  margin-top:15px;
+  float: right; 
+}
+.right-elem a {
+  margin-right:10px;
+}
+
+.icon-arrow i {
+  color:black;
+}
+
+.clas {
+  display: inline-block;
 }
