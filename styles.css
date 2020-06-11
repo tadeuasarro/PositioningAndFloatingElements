@@ -100,12 +100,10 @@
 
 .container {
   width: 70%;
-  text-align: justify;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   font-family: 'Merriweather', serif;
-  
 }
 .container p {
   font-size: 18px;
@@ -120,33 +118,70 @@
 .container p {
   margin: 10px 150px;
   line-height: 30px;
-  text-indent: 50px;
 }
-.image1{
+
+.image1 {
   text-align:center;
-  
 }
-.image1 img{
+
+.image1 img {
   width:100%;
 }
 .img1desc {
   font-size:small;
   text-align: left;
-  display:block; 
+  display:block;
 }
 
-.imgpar{
+.imgpar {
   display:block;
   text-align:left;
-  font-size: smaller;
+  font-size: x-small;
   color:grey;
 }
-.authorName{
+
+.authorName {
   font-size:medium;
   font-weight: bold;
 }
 
-.date{
+.grid {
+  display: grid;
+}
+
+.date {
   font-size: 12px;
-  margin-left:21%;
+  margin-left: 150px;
+  grid-column: 1 / 2;
+}
+
+.social {
+  grid-column: 4 / 6;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 150px;
+}
+
+.social li {
+  display: inline-flex;
+}
+
+.social-media {
+  border: grey 1px solid;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  margin-left: 10px;
+}
+
+.social-media {
+  border: #eeeeee 1px solid;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: small;
 }
