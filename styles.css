@@ -104,10 +104,17 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  font-family: 'Merriweather', serif;
+  
+}
+.container p {
+  font-size: 18px;
 }
 
-.container h1 {
+.container h2 {
   margin: 30px 150px;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size:35px;
 }
 
 .container p {
@@ -115,4 +122,31 @@
   line-height: 30px;
   text-indent: 50px;
 }
+.image1{
+  text-align:center;
+  
+}
+.image1 img{
+  width:100%;
+}
+.img1desc {
+  font-size:small;
+  text-align: left;
+  display:block; 
+}
 
+.imgpar{
+  display:block;
+  text-align:left;
+  font-size: smaller;
+  color:grey;
+}
+.authorName{
+  font-size:medium;
+  font-weight: bold;
+}
+
+.date{
+  font-size: 12px;
+  margin-left:21%;
+}
