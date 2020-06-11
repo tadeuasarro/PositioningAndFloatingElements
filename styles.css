@@ -29,7 +29,43 @@
   border: none;
   background-color: black;
   color: white;
-  width: 75px;
-  height: 40px;
+  width: 65px;
+  height: 30px;
   border-radius: 3px;
+  
+}
+.navbar-third-element a,.navbar-third-element button{
+  margin-right:20px;
+  font-size:14px;
+  font-weight:600;
+}
+.link-space{
+  text-decoration:none;
+  color:black;
+  font-weight: bold;
+  font-size: 14px;
+}
+.login-b{
+  text-decoration: underline;
+}
+.nav-bottom{
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 50px;
+  border:1px solid black;
+  
+}
+.nav-bottom {
+  display: block;
+}
+.nav-bottom .footer-par {
+  text-align:center;
+  border:1px solid black;
+  
+}
+.nav-bottom .icon-arrow{
+  float:right;
 }
