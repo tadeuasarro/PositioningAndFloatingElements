@@ -1,3 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR STYLING */
 .navbar {
-  border: red solid 1px;
+  position: fixed;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: #e2e2e2 solid 1px;
+}
+
+.navbar-first-element button {
+  border: none;
+  background: none;
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+}
+
+.navbar-third-element button {
+  border: none;
+  background-color: black;
+  color: white;
+  width: 75px;
+  height: 40px;
+  border-radius: 3px;
 }
