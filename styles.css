@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 /* NAVBAR STYLING */
 .navbar {
   position: fixed;
@@ -172,9 +173,7 @@
   width: 40px;
   display: flex;
   margin-left: 10px;
-}
-
-.social-media {
+  margin-top:-11px;
   border: #eeeeee 1px solid;
   border-radius: 50%;
   background-color: #eeeeee;
@@ -184,4 +183,30 @@
   align-items: center;
   justify-content: center;
   font-size: small;
+  
+  
+}
+
+
+hr{
+ 
+  width:50px;
+  margin-left:45%; 
+}
+.advertisingConta {
+  text-align: center;    
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold; 
+  display: block;
+}
+.advertiPar {
+  font-size:smaller;
+  line-height: 7px;
+  /* margin-top:-10px;
+  padding: -10px; */
+
+}
+.adverAnchor{
+  text-decoration: none;
+  padding-bottom: 20px;
 }
