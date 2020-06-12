@@ -37,14 +37,14 @@
 
 .navbar-third-element a,
 .navbar-third-element button {
-  margin-right:20px;
-  font-size:14px;
-  font-weight:600;
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .link-space {
-  text-decoration:none;
-  color:black;
+  text-decoration: none;
+  color: black;
   font-weight: bold;
   font-size: 14px;
 }
@@ -75,15 +75,16 @@
   margin-right: 100px;
   float: right;
 }
+
 .right-elem a {
-  margin-right:10px;
+  margin-right: 10px;
   font-size: 12px;
   text-decoration: none;
   color: black;
 }
 
 .icon-arrow i {
-  color:black;
+  color: black;
 }
 
 .clas {
@@ -115,30 +116,30 @@
 .container h2 {
   margin: 30px 150px;
   font-family: 'Balsamiq Sans', cursive;
-  font-size:35px;
+  font-size: 35px;
 }
 
 .image1 {
-  text-align:center;
+  text-align: center;
 }
 
 .image1 img {
   width: 956px;
   height: auto;
 }
+
 .img1desc {
-  font-size:small;
+  font-size: small;
   text-align: left;
-  display:block;
+  display: block;
 }
 
 .imgpar {
-  display:block;
-  text-align:left;
+  display: block;
+  text-align: left;
   font-size: x-small;
-  color:grey;
+  color: grey;
 }
-
 
 /* AUTHOR SOCIAL CONTACT */
 .authorName {
@@ -173,28 +174,23 @@
 }
 
 .social-media {
-  border: grey 1px solid;
   height: 40px;
   width: 40px;
   display: flex;
   margin-left: 10px;
-  border: #eeeeee 1px solid;
+  border: #eee 1px solid;
   border-radius: 50%;
-  background-color: #eeeeee;
-  height: 30px;
-  width: 30px;
-  display: flex;
+  background-color: #eee;
   align-items: center;
   justify-content: center;
   font-size: small;
 }
 
-
 /* MID TEXT ADVERTISEMENT */
 .text-hr {
   color: white;
   width: 50px;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #ccc;
   margin-left: 453px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -262,12 +258,20 @@
 }
 
 /* VIDEO STYLING */
+iframe{
+  border: none;
+}
+
 .videoCont {
   text-align: center;
 }
 
 .videoCont iframe {
   margin-bottom:5px;
+}
+
+.image2-hr {
+  width: 50px;
 }
 
 .image3Cont {
@@ -386,7 +390,6 @@
 }
 
 .lists-out-container {
-  
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
@@ -394,7 +397,6 @@
 }
 
 .lists-container {
-  
   display: flex;
   width: 1210px;
   font-size: small;
@@ -415,14 +417,14 @@
 .lists-container ul li,
 .subscription-container ul li {
   list-style: none;
-
 }
 
 .lists-container ul li:hover{
   text-decoration: underline;
 }
+
 .subscription-container ul li:hover {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 .lists-container ul li:first-child,
@@ -438,7 +440,6 @@
 }
 
 .last-info {
-  
   margin-top: 10px;
 }
 
@@ -475,7 +476,7 @@
   border-top:1px solid grey;
   padding-top:20px;
   font-size:12px;
-  color:grey; 
+  color:grey;
 }
 
 
