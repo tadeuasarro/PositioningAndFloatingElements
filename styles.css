@@ -214,3 +214,18 @@ hr {
   text-decoration: none;
   color: #326891;
 }
+.asideBox {
+  width:200px;
+  border:1px solid black;
+  display:flex;
+  flex-flow:row wrap;
+  justify-items: center;
+}
+.asideBox p{
+  font-size: 15px;
+}
+.asideHeader {
+  font-weight: bold;
+  display:block;
+  justify-content: center;
+}
