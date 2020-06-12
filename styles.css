@@ -293,7 +293,6 @@ iframe {
   font-size: 12px;
   color: grey;
   justify-content: center;
-
 }
 
 .lastparAnchor {
@@ -324,6 +323,7 @@ iframe {
 }
 
 /* RECOMENDED ARTICLES*/
+
 .footerWeb {
   justify-content: center;
   display: grid;
@@ -354,7 +354,7 @@ iframe {
   border-top: 1px solid black;
 }
 
-.articleSource{
+.articleSource {
   text-align: right;
   color: grey;
   font-size: 13px;
@@ -384,7 +384,7 @@ iframe {
 }
 
 .aside2Header {
-  font-family:'Arial';
+  font-family: 'Arial';
   font-size: 16px;
   font-weight: bolder;
 }
@@ -446,16 +446,18 @@ iframe {
 .last-info span {
   display: block;
   margin-top: 7px;
-  font-size: 12px
+  font-size: 12px;
 }
 
 .last-info hr {
   width: 200px;
 }
+
 .lists-container ul {
   margin-right: 40px;
 }
-.lists-container  li {
+
+.lists-container ul li {
   margin-top: 5px;
 }
 
