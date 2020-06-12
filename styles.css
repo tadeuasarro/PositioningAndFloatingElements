@@ -319,25 +319,26 @@
   border-radius: 5px;
 }
 
+/* RECOMENDED ARTICLES*/
 .footerWeb {
   justify-content: center;
-  display:grid;
+  display: grid;
   grid-template-columns: 778px 333px;
   grid-template-rows: 400px;
+  height: 1100px;
 }
 
 .footCon1 {
   padding-top: 20px;
-  border-top:1px solid black;
+  border-top: 1px solid black;
   display: grid;
   grid-template-columns: 259px 259px 259px;
-  
-
 }
+
 .articles img {
   width: 220px;
-
 }
+
 .articles span {
   display: block;
   width: 220px;
@@ -347,7 +348,6 @@
   margin-left: 20px;
   padding-top: 20px;
   border-top:1px solid black;
-
 }
 
 .articleSource{
@@ -367,6 +367,8 @@
   color:grey;
   font-size:13px;
 }
+
+/* MOST POPULAR */
 .aside2 li {
   list-style: none;
   text-align: left;
@@ -375,15 +377,61 @@
   margin-top:15px;
   border-top:1px solid grey;
   padding-top: 10px;
-
 }
+
 .aside2Header {
   font-family:'Arial';
   font-size:16px;
-  font-weight: bolder; 
+  font-weight: bolder;
 }
 
-.lists {
-  display:grid;
-  width:1112px
+.lists-out-container {
+  border: 1px red solid;
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.lists-container {
+  background-color: grey;
+  display: flex;
+  width: 1000px;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-evenly;
+  line-height: 20px;
+}
+
+.subscription-container {
+  width: 180px;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  line-height: 20px;
+}
+
+.lists-container ul li,
+.subscription-container ul li {
+  list-style: none;
+}
+
+.lists-container ul li:first-child,
+.subscription-container ul li:first-child {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.subscription {
+  text-transform: uppercase;
+  font-weight: bolder;
+  line-height: 25px;
+}
+
+.last-info {
+  border: black 1px solid;
+  margin-top: 10px;
+}
+
+.last-info span {
+  display: block;
 }
