@@ -318,3 +318,72 @@
   color: white;
   border-radius: 5px;
 }
+
+.footerWeb {
+  justify-content: center;
+  display:grid;
+  grid-template-columns: 778px 333px;
+  grid-template-rows: 400px;
+}
+
+.footCon1 {
+  padding-top: 20px;
+  border-top:1px solid black;
+  display: grid;
+  grid-template-columns: 259px 259px 259px;
+  
+
+}
+.articles img {
+  width: 220px;
+
+}
+.articles span {
+  display: block;
+  width: 220px;
+}
+
+.footCon2 {
+  margin-left: 20px;
+  padding-top: 20px;
+  border-top:1px solid black;
+
+}
+
+.articleSource{
+  text-align: right;
+  color:grey;
+  font-size:13px;
+}
+
+.articleDescription {
+  text-align: left;
+  color:black;
+  font-size:20px;
+}
+
+.articleDate {
+  text-align: left;
+  color:grey;
+  font-size:13px;
+}
+.aside2 li {
+  list-style: none;
+  text-align: left;
+  color:black;
+  font-size:22px;
+  margin-top:15px;
+  border-top:1px solid grey;
+  padding-top: 10px;
+
+}
+.aside2Header {
+  font-family:'Arial';
+  font-size:16px;
+  font-weight: bolder; 
+}
+
+.lists {
+  display:grid;
+  width:1112px
+}
