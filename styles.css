@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 /* NAVBAR STYLING */
 .navbar {
   position: fixed;
@@ -97,6 +96,7 @@
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
+  border: 1px solid green;
 }
 
 .container {
@@ -106,19 +106,17 @@
   flex-wrap: wrap;
   font-family: 'Merriweather', serif;
 }
-.container p {
+
+.main-text {
   font-size: 18px;
+  margin: 10px 150px;
+  line-height: 30px;
 }
 
 .container h2 {
   margin: 30px 150px;
   font-family: 'Balsamiq Sans', cursive;
   font-size:35px;
-}
-
-.container p {
-  margin: 10px 150px;
-  line-height: 30px;
 }
 
 .image1 {
@@ -142,6 +140,8 @@
   color:grey;
 }
 
+
+/* AUTHOR SOCIAL CONTACT */
 .authorName {
   font-size:medium;
   font-weight: bold;
@@ -186,9 +186,11 @@
   font-size: small;
 }
 
-hr {
-  width: 50px;
+
+/* MID TEXT ADVERTISEMENT */
+.text-hr {
   color: white;
+  width: 50px;
   border-top: 1px solid #cccccc;
   margin-left: 453px;
   margin-top: 10px;
@@ -214,34 +216,44 @@ hr {
   text-decoration: none;
   color: #326891;
 }
+
+/* ASIDE BOX STYLING */
 .asideBox {
-  width:250px;
-  border:1px solid black;
-  display:flex;
-  flex-direction:column;
-  
-  
-  border:1px solid yellow;
+  margin-top: 1200px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  right: 50px;
 }
 
 .asideCon {
-  display: block;
-  width: 250px;
-  border:1px solid red;
+  margin: 10px 0;
 }
+
+.asideCon p{
+  width: 140px;
+  float: right;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
 .asideCon img {
-  margin-left: 60px;
-}
-.asideCon p {
-  justify-content: left;
-  border: 1px solid purple;
+  width: 100px;
 }
 
 .asideHeader {
+  font-size: small;
   font-weight: bold;
-  display: block;
   text-align: center;
-  
-  width: 250px;
-  border:1px solid green;
+  display: inline;
+}
+
+.aside-hr {
+  color: white;
+  border-top: 1px solid #cccccc;
+  margin-top: 10px;
 }
