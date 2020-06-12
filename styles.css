@@ -211,7 +211,7 @@
 }
 
 .adverAnchor,
-.textAnchor{
+.textAnchor {
   text-decoration: none;
   color: #326891;
 }
@@ -231,7 +231,7 @@
   margin: 10px 0;
 }
 
-.asideCon p{
+.asideCon p {
   width: 140px;
   float: right;
   font-size: small;
@@ -253,12 +253,12 @@
 
 .aside-hr {
   color: white;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #ccc;
   margin-top: 10px;
 }
 
 /* VIDEO STYLING */
-iframe{
+iframe {
   border: none;
 }
 
@@ -267,7 +267,7 @@ iframe{
 }
 
 .videoCont iframe {
-  margin-bottom:5px;
+  margin-bottom: 5px;
 }
 
 .image2-hr {
@@ -281,35 +281,35 @@ iframe{
 
 .smallPar {
   font-size: 12px;
-  color:grey;
+  color: grey;
   display: block;
   text-align: left;
-  margin-left:145px;
+  margin-left: 145px;
 }
 
 .lastPar {
-  margin-left:150px;
-  margin-right:150px;
+  margin-left: 150px;
+  margin-right: 150px;
   font-size: 12px;
-  color:grey;
+  color: grey;
   justify-content: center;
 
 }
 
 .lastparAnchor {
   font-size: 12px;
-  color:grey;
+  color: grey;
   text-decoration: underline;
-  margin-right:5px;
-  margin-left:5px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
-.lastparAnchor:hover{
+.lastparAnchor:hover {
   text-decoration: none;
 }
 
 .commentCon {
-  margin:30px 150px 30px 150px;
+  margin: 30px 150px 30px 150px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -351,41 +351,41 @@ iframe{
 .footCon2 {
   margin-left: 20px;
   padding-top: 20px;
-  border-top:1px solid black;
+  border-top: 1px solid black;
 }
 
 .articleSource{
   text-align: right;
-  color:grey;
-  font-size:13px;
+  color: grey;
+  font-size: 13px;
 }
 
 .articleDescription {
   text-align: left;
-  color:black;
-  font-size:20px;
+  color: black;
+  font-size: 20px;
 }
 
 .articleDate {
   text-align: left;
-  color:grey;
-  font-size:13px;
+  color: grey;
+  font-size: 13px;
 }
 
 /* MOST POPULAR */
 .aside2 li {
   list-style: none;
   text-align: left;
-  color:black;
-  font-size:22px;
-  margin-top:15px;
-  border-top:1px solid grey;
+  color: black;
+  font-size: 22px;
+  margin-top: 15px;
+  border-top: 1px solid grey;
   padding-top: 10px;
 }
 
 .aside2Header {
   font-family:'Arial';
-  font-size:16px;
+  font-size: 16px;
   font-weight: bolder;
 }
 
@@ -393,7 +393,7 @@ iframe{
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
-  margin-left:40px;
+  margin-left: 40px;
 }
 
 .lists-container {
@@ -411,7 +411,7 @@ iframe{
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 20px;
   line-height: 20px;
-  border-left:1px solid grey;
+  border-left: 1px solid grey;
 }
 
 .lists-container ul li,
@@ -419,7 +419,7 @@ iframe{
   list-style: none;
 }
 
-.lists-container ul li:hover{
+.lists-container ul li:hover {
   text-decoration: underline;
 }
 
@@ -445,38 +445,38 @@ iframe{
 
 .last-info span {
   display: block;
-  margin-top:7px;
-  font-size:12px
+  margin-top: 7px;
+  font-size: 12px
 }
 
-.last-info hr{
-  width:200px;
+.last-info hr {
+  width: 200px;
 }
 .lists-container ul {
-  margin-right:40px;
+  margin-right: 40px;
 }
-.lists-container  li{
-  margin-top:5px;
+.lists-container  li {
+  margin-top: 5px;
 }
 
 .listHeader {
-  margin-left:40px;
-  border-top:1px solid grey;
-  padding-top:20px;
+  margin-left: 40px;
+  border-top: 1px solid grey;
+  padding-top: 20px;
 }
 
 .last-last {
-  margin:0px 40px 0px 40px;
+  margin: 0px 40px 0px 40px;
   height: 100px;
-  width:1400px;
+  width: 1400px;
   text-align: center;
-  display:flex;
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  border-top:1px solid grey;
-  padding-top:20px;
-  font-size:12px;
-  color:grey;
+  border-top: 1px solid grey;
+  padding-top: 20px;
+  font-size: 12px;
+  color: grey;
 }
 
 
