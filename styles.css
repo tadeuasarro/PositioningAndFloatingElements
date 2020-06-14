@@ -329,7 +329,7 @@ iframe {
   display: grid;
   grid-template-columns: 778px 333px;
   grid-template-rows: 400px;
-  height: 800px;
+  height: 850px;
 }
 
 .footCon1 {
@@ -457,7 +457,7 @@ iframe {
   margin-right: 40px;
 }
 
-.lists-container ul li {
+.lists-container li {
   margin-top: 5px;
 }
 
