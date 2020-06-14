@@ -322,7 +322,7 @@ iframe {
   border-radius: 5px;
 }
 
-/* RECOMENDED ARTICLES*/
+/* RECOMENDED ARTICLES */
 
 .footerWeb {
   justify-content: center;
@@ -384,7 +384,7 @@ iframe {
 }
 
 .aside2Header {
-  font-family: 'Arial';
+  font-family: 'Arial', sans-serif;
   font-size: 16px;
   font-weight: bolder;
 }
@@ -480,8 +480,6 @@ iframe {
   font-size: 12px;
   color: grey;
 }
-
-
 
 .last-last span:hover {
   text-decoration: underline;
