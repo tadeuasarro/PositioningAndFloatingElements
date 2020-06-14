@@ -1,5 +1,5 @@
 # PositioningAndFloatingElements
-Microverse Third Project
+
 
 
 > This is a recreation of https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0 article page
@@ -33,7 +33,7 @@ This is a website to test our understainding of forms in HTML
 - Twitter: [@pablo_acz](https://twitter.com/pablo_acz)
 - Linkedin: [linkedin](https://www.linkedin.com/in/pablo-alexis-zambrano-coral-7a614a189/)
 
-##  🤝 Contributing
+##  🤝   Contributing
 
 Contributions, issues and feature requests and any type of feedback to improve are welcome!
 
