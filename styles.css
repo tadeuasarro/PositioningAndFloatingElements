@@ -399,7 +399,7 @@ iframe {
 .lists-container {
   display: flex;
   width: 1210px;
-  font-size: small;
+  font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   justify-content: space-between;
   line-height: 20px;
@@ -407,19 +407,19 @@ iframe {
 
 .subscription-container {
   width: 260px;
-  font-size: small;
+  font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 20px;
   line-height: 20px;
   border-left: 1px solid grey;
 }
 
-.lists-container ul li,
+.listClass,
 .subscription-container ul li {
   list-style: none;
 }
 
-.lists-container ul li:hover {
+.listClass:hover {
   text-decoration: underline;
 }
 
@@ -427,7 +427,7 @@ iframe {
   text-decoration: underline;
 }
 
-.lists-container ul li:first-child,
+.listClass:first-child,
 .subscription-container ul li:first-child {
   text-transform: uppercase;
   font-weight: bolder;
@@ -484,4 +484,3 @@ iframe {
 .last-last span:hover {
   text-decoration: underline;
 }
-/* ---------------------------- */
