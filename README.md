@@ -27,7 +27,7 @@ This is a website to test our understainding of forms in HTML
 - Twitter: [----(--------------)
 - Linkedin: [----------](----------)
 
-👤  **Pablo Alexis Zambrano Coral**
+👤  ** Pablo Alexis Zambrano Coral**
 
 - Github: [@Alexoid1](https://github.com/Alexoid1)
 - Twitter: [@pablo_acz](https://twitter.com/pablo_acz)
