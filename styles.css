@@ -466,8 +466,9 @@ iframe {
 .last-last {
   margin: 0 40px;
   height: 100px;
-  width: 1400px;
+  max-width: 1400px;
   text-align: center;
+  align-content: center;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
