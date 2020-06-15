@@ -211,7 +211,7 @@
 }
 
 .adverAnchor,
-.textAnchor{
+.textAnchor {
   text-decoration: none;
   color: #326891;
 }
@@ -231,7 +231,7 @@
   margin: 10px 0;
 }
 
-.asideCon p{
+.asideCon p {
   width: 140px;
   float: right;
   font-size: 12px;
@@ -253,7 +253,7 @@
 
 .aside-hr {
   color: white;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #ccc;
   margin-top: 10px;
 }
 
@@ -267,7 +267,7 @@ iframe{
 }
 
 .videoCont iframe {
-  margin-bottom:5px;
+  margin-bottom: 5px;
 }
 
 .image2-hr {
@@ -281,35 +281,34 @@ iframe{
 
 .smallPar {
   font-size: 12px;
-  color:grey;
+  color: grey;
   display: block;
   text-align: left;
-  margin-left:145px;
+  margin-left: 145px;
 }
 
 .lastPar {
-  margin-left:150px;
-  margin-right:150px;
+  margin-left: 150px;
+  margin-right: 150px;
   font-size: 12px;
-  color:grey;
+  color: grey;
   justify-content: center;
-
 }
 
 .lastparAnchor {
   font-size: 12px;
-  color:grey;
+  color: grey;
   text-decoration: underline;
-  margin-right:5px;
-  margin-left:5px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
-.lastparAnchor:hover{
+.lastparAnchor:hover {
   text-decoration: none;
 }
 
 .commentCon {
-  margin:30px 150px 30px 150px;
+  margin: 30px 150px 30px 150px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -323,7 +322,7 @@ iframe{
   border-radius: 5px;
 }
 
-/* RECOMENDED ARTICLES*/
+/* RECOMENDED ARTICLES */
 .footerWeb {
   justify-content: center;
   display: grid;
@@ -354,7 +353,7 @@ iframe{
   border-top: 1px solid black;
 }
 
-.articleSource{
+.articleSource {
   text-align: right;
   color: grey;
   font-size: 13px;
@@ -384,8 +383,8 @@ iframe{
 }
 
 .aside2Header {
-  font-family:'Arial';
-  font-size:16px;
+  font-family: 'Arial',sans-serif;
+  font-size: 16px;
   font-weight: bolder;
 }
 
@@ -393,7 +392,7 @@ iframe{
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
-  margin-left:40px;
+  margin-left: 40px;
 }
 
 .lists-container {
@@ -415,7 +414,7 @@ iframe{
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 20px;
   line-height: 20px;
-  border-left:1px solid grey;
+  border-left: 1px solid grey;
 }
 
 .lists-container ul li,
@@ -423,7 +422,7 @@ iframe{
   list-style: none;
 }
 
-.lists-container ul li:hover{
+.lists-container ul li:hover {
   text-decoration: underline;
 }
 
@@ -450,18 +449,18 @@ iframe{
 .last-info span {
   display: block;
   margin-top: 7px;
-  font-size: 12px
+  font-size: 12px;
 }
 
-.last-info hr{
+.last-info hr {
   width: 200px;
 }
 
 .lists-container ul {
-  margin-right:40px;
+  margin-right: 40px;
 }
 
-.lists-container  li{
+.lists-container  ul li{
   margin-top: 5px;
 }
 
