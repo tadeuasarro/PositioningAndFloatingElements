@@ -4,7 +4,7 @@
 
 ![screenshot](./img/screen.png)
 
-This is a website to test our understainding of forms in HTML
+
 
 ## Built With
 
