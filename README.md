@@ -14,16 +14,16 @@ This is a website to test our understainding of forms in HTML
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/tadeuasarro/PositioningAndFloatingElements/bdcf182f7771ffe6c8f2d42a81b9efa465260aeb/index.html)
 
 
 ## Authors
 
-👤 **José Francisco Silva Díaz**
+👤 **Tadeu de Abreu Sarro**
 
-- Github: []()
-- Twitter: []()
-- Linkedin: []()
+- Github: [@tadeuasarro](https://github.com/tadeuasarro)
+- Twitter: [@tadeuasarro](https://twitter.com/tadeuasarro)
+- Linkedin: [@tadeuasarro](https://www.linkedin.com/in/tadeu-sarro-71481013a/)
 
 👤 **Pablo Alexis Zambrano Coral**
 
