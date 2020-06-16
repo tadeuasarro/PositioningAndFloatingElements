@@ -374,6 +374,9 @@ iframe {
   display: grid;
   grid-template-columns: 259px 259px 259px;
 }
+.articles {
+  margin: 20px 0;
+}
 
 .articles img {
   width: 220px;
@@ -399,7 +402,8 @@ iframe {
 .articleDescription {
   text-align: left;
   color: black;
-  font-size: 20px;
+  font-size: 17px;
+  font-weight:thin;
 }
 
 .articleDate {
