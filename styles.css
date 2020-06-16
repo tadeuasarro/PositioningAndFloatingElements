@@ -310,9 +310,27 @@ iframe {
   margin-bottom: 5px;
 }
 
-.image-2-container {
-  background-color: red;
-  text-align: center;
+.span-container-1,
+.span-container-2 {
+  width: 930px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  font-size: 11px;
+}
+
+.span-container-1 {
+  margin-top: 230px;
+}
+
+.span-container-2 {
+  margin-top: 510px;
+}
+
+.image-2-span {
+  text-align: justify;
+  display: flex;
+  width: 200px;
 }
 
 .image2-hr {
