@@ -7,7 +7,7 @@
 /* NAVBAR STYLING */
 header {
   position: absolute; 
-  z-index: 2;
+  z-index: 2; /*  set index z value to the navbar not be overlaped by the floating adversing */
 }
 
 .navbar {
