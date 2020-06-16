@@ -267,6 +267,10 @@ header {
   color: black;
 }
 
+.floatAnchors:hover {
+  text-decoration: underline;
+}
+
 .asideCon p {
   width: 140px;
   float: right;
@@ -374,7 +378,7 @@ iframe {
   display: grid;
   grid-template-columns: 778px 333px;
   grid-template-rows: 400px;
-  height: 1050px;
+  height: 900px;
 }
 
 .footCon1 {
