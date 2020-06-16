@@ -31,7 +31,6 @@ header {
   margin: 0 5px;
 }
 
-
 .navbar-third-element button {
   background-color: #587697;
   border: #3a5b93 1px solid;
@@ -354,9 +353,19 @@ iframe {
 .comments-button {
   grid-column: 1 / 4;
   border: #326891 1px solid;
-  background: #567b95;
+  background-color: #567b95;
   color: white;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.comments-button:hover {
+  background-color: #326891;
 }
 
 /* RECOMENDED ARTICLES */
@@ -369,13 +378,14 @@ iframe {
 }
 
 .footCon1 {
-  padding-top: 20px;
   border-top: 1px solid black;
   display: grid;
   grid-template-columns: 259px 259px 259px;
+  font-size: 15px;
 }
+
 .articles {
-  margin: 20px 0;
+  margin-top: 40px;
 }
 
 .articles img {
@@ -387,9 +397,19 @@ iframe {
   width: 220px;
 }
 
+.border-top {
+  margin-top: 20px;
+  border-top: 1px solid black;
+  display: flex;
+  width: 777px;
+}
+
+.border-top .articles {
+  margin-right: 40px;
+}
+
 .footCon2 {
   margin-left: 20px;
-  padding-top: 20px;
   border-top: 1px solid black;
 }
 
@@ -413,19 +433,32 @@ iframe {
 }
 
 /* MOST POPULAR */
-.aside2 li {
+.aside2 {
+  font-size: 15px;
+}
+
+.most-popular-header {
+  position: absolute;
+  margin-top: 10px;
+}
+
+.aside2 li:first-of-type {
   list-style: none;
   text-align: left;
   color: black;
-  font-size: 22px;
-  margin-top: 15px;
+  padding: 10px 0;
+}
+
+.aside2 li:not(:first-of-type) {
+  list-style: none;
+  text-align: left;
+  color: black;
   border-top: 1px solid grey;
-  padding-top: 10px;
+  padding: 10px 0;
 }
 
 .aside2Header {
   font-family: 'Arial', sans-serif;
-  font-size: 16px;
   font-weight: bolder;
 }
 
@@ -469,14 +502,6 @@ iframe {
 .lists-container ul li,
 .subscription-container ul li {
   list-style: none;
-}
-
-.lists-container ul li:hover {
-  text-decoration: underline;
-}
-
-.subscription-container ul li:hover {
-  text-decoration: underline;
 }
 
 .lists-container ul li:first-child,
