@@ -5,6 +5,11 @@
 }
 
 /* NAVBAR STYLING */
+header {
+  position: absolute; 
+  z-index: 2;
+}
+
 .navbar {
   position: fixed;
   display: flex;
@@ -99,6 +104,9 @@
   justify-content: center;
 }
 
+.socialiAnchors {
+  color: black;
+}
 .container {
   width: 956px;
   display: flex;
@@ -143,8 +151,10 @@
 
 /* AUTHOR SOCIAL CONTACT */
 .authorName {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
+  text-decoration: none;
+  color: black;
 }
 
 .grid {
@@ -210,15 +220,19 @@
   margin-bottom: 5px;
 }
 
-.adverAnchor,
-.textAnchor {
+.adverAnchor {
   text-decoration: none;
+  color: #326891;
+}
+
+.textAnchor {
+  text-decoration: underline;
   color: #326891;
 }
 
 /* ASIDE BOX STYLING */
 .asideBox {
-  margin-top: 1200px;
+  margin-top: 1570px;
   width: 250px;
   display: flex;
   flex-direction: column;
@@ -229,6 +243,11 @@
 
 .asideCon {
   margin: 10px 0;
+}
+
+.floatAnchors {
+  text-decoration: none;
+  color: black;
 }
 
 .asideCon p {
