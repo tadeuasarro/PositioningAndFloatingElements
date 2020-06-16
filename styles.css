@@ -259,6 +259,17 @@ header {
   color: grey;
 }
 
+.articles span {
+  display: block;
+  width: 220px;
+}
+
+.last-info span {
+  display: block;
+  margin-top: 7px;
+  font-size: 12px;
+}
+
 .floatAnchors:hover,
 .last-last span:hover {
   text-decoration: underline;
@@ -412,11 +423,6 @@ iframe {
   width: 220px;
 }
 
-.articles span {
-  display: block;
-  width: 220px;
-}
-
 .border-top {
   margin-top: 20px;
   border-top: 1px solid black;
@@ -538,12 +544,6 @@ iframe {
 
 .last-info {
   margin-top: 10px;
-}
-
-.last-info span {
-  display: block;
-  margin-top: 7px;
-  font-size: 12px;
 }
 
 .last-info hr {
