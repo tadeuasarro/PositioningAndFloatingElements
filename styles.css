@@ -310,6 +310,11 @@ iframe {
   margin-bottom: 5px;
 }
 
+.image-2-container {
+  background-color: red;
+  text-align: center;
+}
+
 .image2-hr {
   width: 50px;
 }
@@ -551,6 +556,11 @@ iframe {
   padding-top: 20px;
   color: grey;
   font-size: 10px;
+}
+
+.last-last a {
+  text-decoration: none;
+  color: grey;
 }
 
 .last-last span:hover {
