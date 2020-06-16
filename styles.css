@@ -102,6 +102,7 @@ header {
 .socialiAnchors {
   color: black;
 }
+
 .container {
   width: 956px;
   display: flex;
@@ -193,6 +194,7 @@ header {
 
 .social a {
   text-decoration: none;
+  color: black;
 }
 
 .social-media:hover {
@@ -207,10 +209,6 @@ header {
   align-items: center;
   justify-content: center;
   font-size: 25px;
-}
-
-.social a {
-  color: black;
 }
 
 /* MID TEXT ADVERTISEMENT */
@@ -459,7 +457,7 @@ iframe {
   text-align: left;
   color: black;
   font-size: 17px;
-  font-weight:thin;
+  font-weight: thin;
 }
 
 .articleDate {
@@ -531,11 +529,11 @@ iframe {
   margin-right: 40px;
 }
 
-.lists-container ul li {
+.listAnchorss {
   margin-top: 5px;
 }
 
-.lists-container ul li,
+.listAnchorss,
 .subscription-container ul li {
   list-style: none;
 }
