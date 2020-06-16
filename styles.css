@@ -267,6 +267,15 @@ header {
   color: black;
 }
 
+.floatAnchors2 {
+  text-decoration: none;
+  color: black;
+}
+
+.floatAnchors2:hover { 
+  color: grey;
+}
+
 .floatAnchors:hover {
   text-decoration: underline;
 }
