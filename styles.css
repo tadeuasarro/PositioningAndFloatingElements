@@ -83,10 +83,6 @@ header {
   color: black;
 }
 
-.icon-arrow i {
-  color: black;
-}
-
 .clas {
   display: inline-block;
 }
@@ -158,10 +154,6 @@ header {
   width: 656px;
   margin-left: 150px;
   margin-top: 15px;
-}
-
-.date-container {
-  align-items: center;
 }
 
 .date {
