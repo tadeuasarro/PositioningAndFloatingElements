@@ -1,4 +1,4 @@
-# PositioningAndFloatingElements
+# Positioning And Floating Elements
 
 > This is a recreation of https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0 article page
 
@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/tadeuasarro/PositioningAndFloatingElements/32d3ccc9710d7ea2f91796e80f5d34fd0c30eab7/index.html)
+[Live Demo Link](https://rawcdn.githack.com/tadeuasarro/PositioningAndFloatingElements/19c5a72609fd0ffbe8a7cdf9374c0fa90d92eeab/index.html)
 
 
 ## Authors
